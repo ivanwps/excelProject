@@ -55,7 +55,7 @@ public class Main {
 
                     if ((j-4) == n && cell != null) {
 
-                        plan.setPlanName(planCell.getStringCellValue());
+                        plan.setPlanName(planCell.getStringCellValue()+", ");
 
                         if (cell.getCellType() == CellType.STRING) {
                             plan.setCoverageValue(cell.getStringCellValue());
